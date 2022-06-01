@@ -38,6 +38,8 @@ console.log(typeof typeof 1);
 //Question 5:
 [...'hello'];
 
+// Not sure about this one.
+
 //Question 6:
 
 var number = 87;
@@ -48,6 +50,8 @@ var printNumber = function(){
 printNumber();
 
 //Output is undefined. 
+//Because first var number is declared outside the function, and second one is declared after 
+//console.log(), & Code will be compiled from top to bottom , so , output will be undefined.
 
 //Question 7:
 
@@ -55,6 +59,7 @@ console.log(23 < 24 < 35);
 console.log(35 > 24 > 23);
 
 //Output is true , false respectively.
+//Not sure need to understand from you.
 
 //Question 8:
 
@@ -88,7 +93,7 @@ var b = {
 console.log(a + b.a + ++b.b);
 
 //Output is 18.
-
+//Need to understand from you
 
 
 
